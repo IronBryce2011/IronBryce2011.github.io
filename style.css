@@ -1,1 +1,32 @@
-
+body {
+    text-align: center;
+    font-family: saria, Arial, Helvetica, sans-serif;
+ 
+  background: linear-gradient(to bottom, #a2d4f7, #083c7d);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+p, form,label , button,input {
+    font-size: 2em;
+}
+h1 {
+  font-size: 8em;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color: aqua;
+  color:white;
+  width: fit-content;
+  text-align: center;
+  margin: 1em auto;
+}
+#output {
+    font-size: 3em
+}
+button {
+    border: 4px solid black;
+    background-color: lightskyblue;
+    border-radius: 20px;
+}
+button:active {
+    background-color: lightseagreen;
+}
